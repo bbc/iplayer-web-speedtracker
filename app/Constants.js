@@ -100,6 +100,13 @@ export default {
       unit: 's',
       description: 'The time until the browser starts painting content to the screen'
     },
+    domInteractive: {
+      color: [171, 173, 100],
+      name: 'DOM interactive',
+      transform: (value) => (value / 1000).toFixed(2),
+      unit: 's',
+      description: 'When the parser finished its work on the main document, that is when its Document.readyState changes to interactive'
+    },
     fullyLoaded: {
       color: [3, 181, 170],
       name: 'Fully loaded',

@@ -63,7 +63,7 @@ class Dashboard extends React.Component {
           )}
           lastResult={lastResult}
           onClick={onClickWpt}
-          metrics={['firstPaint', 'SpeedIndex', 'visualComplete']}
+          metrics={['firstPaint', 'domInteractive', 'SpeedIndex', 'visualComplete']}
           title='Rendering'
           yLabel='Time (seconds)'
         />
