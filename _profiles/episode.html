@@ -7,4 +7,13 @@ parameters:
   location: "London_EC2"
   runs: 1
   url: "http://www.bbc.co.uk/iplayer/episode/p04qh1gk/face-to-face-dame-edith-sitwell"
+budgets:
+  -
+    metric: TTFB
+    max: 1000
+    alerts: ["slackAlert"]
+  -
+    metric: domInteractive
+    max: 3000
+    alerts: ["slackAlert"]
 ---

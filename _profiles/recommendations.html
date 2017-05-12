@@ -7,4 +7,13 @@ parameters:
   location: "London_EC2"
   runs: 1
   url: "https://www.bbc.co.uk/iplayer/recommendations"
+budgets:
+  -
+    metric: TTFB
+    max: 1000
+    alerts: ["slackAlert"]
+  -
+    metric: domInteractive
+    max: 3000
+    alerts: ["slackAlert"]
 ---

@@ -7,4 +7,13 @@ parameters:
   location: "London_EC2"
   runs: 1
   url: "http://www.bbc.co.uk/iplayer/categories/documentaries/highlights"
+budgets:
+  -
+    metric: TTFB
+    max: 1000
+    alerts: ["slackAlert"]
+  -
+    metric: domInteractive
+    max: 3000
+    alerts: ["slackAlert"]
 ---

@@ -7,4 +7,9 @@ parameters:
   location: "London_EC2"
   runs: 1
   url: "http://www.bbc.co.uk/bbcone"
+budgets:
+  -
+    metric: TTFB
+    max: 1000
+    alerts: ["slackAlert"]
 ---
