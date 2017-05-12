@@ -12,4 +12,8 @@ budgets:
     metric: TTFB
     max: 1000
     alerts: ["slackAlert"]
+  -
+    metric: domInteractive
+    max: 3000
+    alerts: ["slackAlert"]
 ---
