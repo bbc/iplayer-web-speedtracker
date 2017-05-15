@@ -37,7 +37,7 @@
 #                                                                             #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-encryptionKey: "d2567b5c761465d2ef9ebca8aa5568"
+encryptionKey: "f4d7da613e138793dcf5368e2038220bec47c24b"
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -50,7 +50,7 @@ encryptionKey: "d2567b5c761465d2ef9ebca8aa5568"
 #                                                                             #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-wptKey: "fa08225f6a4021cbfeccbdb4ff553fb46d6cfaf40a7c24c568b643f9fb491051ba25"
+wptKey: "849d9a6c2c4081cbdea932867279771eef05c749c1e4af4154ba787423bb7d9a993d"
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -75,7 +75,7 @@ alerts:
 #    recipients: ["ENCRYPTED_EMAIL_ADDRESS2", "ENCRYPTED_EMAIL_ADDRESS3"]
   slackAlert:
     type: "slack"
-    hookUrl: "d352634d7c4b38d0f094b1eee84928bc683da7eb0a24708c2eb655bda61e1611a4109900c7673aa58c93531606f78a5c728fddc82012888bad693b099f1d6eb6afa7dcb2cc899c95a93f1085ac"
+    hookUrl: "adc7db7e3a4b98d0d0f13edc65656016ea549a56c1bcfb0812ba6e307eec7bda870819eecd4496f914bfe7891c9098667dbeb9d8b25f6a1c610ef4d512c34b611ac001976979c6d81a3cad7724"
     channel: "#speedtracker"
     username: "SpeedTracker"
     iconEmoji: ":chart_with_upwards_trend:"
