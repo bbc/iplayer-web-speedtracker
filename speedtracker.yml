@@ -76,6 +76,6 @@ alerts:
   slackAlert:
     type: "slack"
     hookUrl: "adc7db7e3a4b98d0d0f13edc65656016ea549a56c1bcfb0812ba6e307eec7bda870819eecd4496f914bfe7891c9098667dbeb9d8b25f6a1c610ef4d512c34b611ac001976979c6d81a3cad7724"
-    channel: "#speedtracker"
+    channel: "#monitor-iplayer-speed"
     username: "SpeedTracker"
     iconEmoji: ":chart_with_upwards_trend:"
