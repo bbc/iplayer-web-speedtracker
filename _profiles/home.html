@@ -8,15 +8,8 @@ name: "Homepage"
 #
 # The default profile will be the one shown when accessing the root URL of your
 # SpeedTracker site.
-# 
+#
 default: true
-
-#
-# If you want tests to be repeated automatically, you can an interval (in hours)
-# with a minimum value of 12, as only two scheduled tests per day are allowed.
-# To disabled repeated tests, simply remove this property from the profile.
-#
-interval: 12
 
 #
 # WebPageTest test parameters.
@@ -27,8 +20,8 @@ interval: 12
 parameters:
   connectivity: "Cable"
   location: "London_EC2"
-  runs: 1
-  url: "http://www.bbc.co.uk/iplayer"
+  runs: 5
+  url: "https://www.bbc.co.uk/iplayer"
 
 #
 # The URL of the WebPageTest instance to be used with this profile. Please note that
