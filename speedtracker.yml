@@ -1,9 +1,9 @@
 #
-#             ____                ________             __          
+#             ____                ________             __
 #            / __/__  ___ ___ ___/ /_  __/______ _____/ /_____ ____
 #           _\ \/ _ \/ -_) -_) _  / / / / __/ _ `/ __/  '_/ -_) __/
-#           ___/ .__/\__/\__/\_,_/ /_/ /_/  \_,_/\__/_/\_\\__/_/   
-#             /_/                                                  
+#           ___/ .__/\__/\__/\_,_/ /_/ /_/  \_,_/\__/_/\_\\__/_/
+#             /_/
 #                          https://speedtracker.org
 #
 
@@ -75,7 +75,7 @@ alerts:
 #    recipients: ["ENCRYPTED_EMAIL_ADDRESS2", "ENCRYPTED_EMAIL_ADDRESS3"]
   slackAlert:
     type: "slack"
-    hookUrl: "adc7db7e3a4b98d0d0f13edc65656016ea549a56c1bcfb0812ba6e307eec7bda870819eecd4496f914bfe7891c9098667dbeb9d8b25f6a1c610ef4d512c34b611ac001976979c6d81a3cad7724"
+    hookUrl: "adc7db7e3a4b98d0d0f13edc65656016ea549a56c1bcfb0812ba6e307eec7bda87081a85d257e9ef6ac2e7891e8a986379ced0bdb252603d6913e19d33e44a3b079705962648f7e01e4f8f6c1f"
     channel: "#monitor-iplayer-speed"
     username: "SpeedTracker"
     iconEmoji: ":chart_with_upwards_trend:"
