@@ -23,27 +23,23 @@
 1. Use the [test tool](https://speedtracker.org/test) to run a test.
 
 ## Development
-
-1. Install dependencies
-
+  
+  Install dependencies
   ```
   npm install
   ```
 
-1. Start the Jekyll server
-
+  Start the Jekyll server
   ```
   jekyll serve --watch --port SOME_PORT
   ```
 
-1. Start Webpack
-
+  Start Webpack
   ```
   npm run watch
   ```
 
-1. When you're done with your changes, build the bundle for production
-
+  When you're done with your changes, build the bundle for production
   ```
   npm run build
   ```
